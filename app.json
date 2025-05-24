@@ -13,8 +13,10 @@
       "bundleIdentifier": "com.yourcompany.tasksendingnotification",
       "infoPlist": {
         "UIBackgroundModes": [
+          "remote-notification",
           "remote-notification"
-        ]
+        ],
+        "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {
